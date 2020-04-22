@@ -1,0 +1,18 @@
+.slide_show {
+    position: relative;
+    width: 30%;
+}
+.slide_show img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+ 
+    opacity: 0;
+}
+.slide_show img.select {
+    opacity: 1;
+}
+

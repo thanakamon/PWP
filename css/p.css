@@ -1,0 +1,36 @@
+legend{
+    font: 30px sans-serif;
+}
+main{
+    margin: 10px;
+}
+article {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+    margin: 5px;
+}
+img{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width:700px) {
+    legend{
+        font: 50px sans-serif;
+    }
+    main{
+        margin: 20px 50px;
+    }
+}
+@media screen and (min-width:1200px) {
+    legend{
+        font: 50px sans-serif;
+    }
+    main{
+        margin: 20px 150px;
+    }
+}
