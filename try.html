@@ -2,25 +2,33 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/css.css">
         <link rel="stylesheet" href="css/j.css">
         <link rel="stylesheet" href="css/p.css">
+        <link rel="stylesheet" href="css/try2.css">
         <meta name=viewport content="width=device-width, initial-scale=1">
         <title>Posonal Web</title>
     </head>
     <body>
         <header>
-           <nav>
-                <div><a href="home.html" class="menu">Menu</a></div>
-                <div><a href="profile.html" class="menu">About Us</a></div>
-                <div><a href="js.html" class="menu">My Photo</a></div>
-        </nav>
+           <nav id="menuber">
+                <div id="menu" onclick="onClickMenu()">
+				    <div id="bar1" class="bar"></div>
+				    <div id="bar2" class="bar"></div>
+				    <div id="bar3" class="bar"></div>
+			    </div>
+                <div class="nav" id="nav">
+                    <div><a href="home.html" class="menu">Menu</a></div>
+                    <div><a href="profile.html" class="menu">About Us</a></div>
+                    <div><a href="js.html" class="menu">My Photo</a></div>
+                </div>
+                
+        </nav><div class="menu-bg" id="menu-bg"></div>
         </header>
         <main>
             <main>
             <article>
                 <section id="s1">
-                   <div class="slide_show" id="ss_demo">
+                   <div class="slide" id="slides">
                         <img src=img/woman.png>
                         <img src=img/home.png>
                     </div>
@@ -43,6 +51,7 @@
             </article>
         </main>
         <footer>- Personal Web -</footer>
-        <script src="js/j.js"></script>
+        <script src="js/slide.js"></script>
+        <script src="js/nav.js"></script>
     </body>
 </html>

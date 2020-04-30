@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/css.css">
+        
         <link rel="stylesheet" href="css/p.css">
         <meta name=viewport content="width=device-width, initial-scale=1">
         <title>Posonal Web</title>
@@ -11,24 +12,26 @@
         <header>
            <nav>
                 <div><a href="home.html" class="menu">Menu</a></div>
-                <div><a href="profile.html" class="menu">About Us</a></div>
-                <div><a href="js.html" class="menu">My Photo</a></div>
+                <div><a href="js.html" class="menu">Album</a></div>
         </nav>
         </header>
         <main>
             <main>
             <article>
-                <section >
-                    <img src=img/woman.png>
+                <section id="s1">
+                   <div class="slide" id="slides">
+                        <img src=img/woman.png>
+                        <img src=img/home.png>
+                    </div>
                 </section>
-                <section>
+                <section id="s2">
                     <fieldset>
                         <legend>Personal Info</legend>  
                         <p>My name's Thanakamon Intharasuriyawong.</p>
                         <p>I'm studying in Faculty of Industrial Education and Technology, King Mongkut's Institute of Technology Ladkrabang. </p>
                     </fieldset>
                  </section>
-                 <section>
+                 <section id="s3">
                     <fieldset>
                         <legend>Education</legend>  
                         <p>I'm studying in Faculty of Industrial Education and Technology, King Mongkut's Institute of Technology Ladkrabang. </p>
@@ -38,7 +41,7 @@
                  </section>
             </article>
         </main>
-        </main>
         <footer>- Personal Web -</footer>
+        <script src="js/slide.js"></script>
     </body>
 </html>

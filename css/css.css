@@ -1,10 +1,13 @@
 nav{
     display: flex;
     justify-content: flex-end;
-    line-height: 60px;
+    line-height: 40px;
     background-color: black;
     margin: 0px;
     padding: 10px 5px;
+}
+body{
+    margin: 0em;
 }
 div {
     margin: 0px 10px;
@@ -14,15 +17,22 @@ a{
     font: 20px sans-serif;
 }
 footer {
-    display: flex;
-    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 1em;
-    margin: 0px;
     padding: 10px;
-    color: black;
+    text-align: center;
+    color: black; 
 }
 h2{
     color: white;
     font: 30px sans-serif;
 }
 
+@media screen and (min-width:700px) {
+    nav{
+        line-height: 60px;
+    }  
+}

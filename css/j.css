@@ -1,17 +1,9 @@
-.slide_show {
-    position: relative;
-    width: 30%;
+nav{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
 }
-.slide_show img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    opacity: 0;
-}
-.slide_show img.select {
-    opacity: 1;
-}
-

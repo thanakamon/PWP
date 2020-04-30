@@ -2,7 +2,7 @@ article {
     display: grid;
     grid-template-columns: repeat(1,1fr);
     grid-gap: 10px;
-    margin: 5px;
+    margin: 10px;
 }
 section{
     border: 2px dashed black;

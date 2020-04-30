@@ -21,4 +21,4 @@ function playSlideShow(id) {
         position = show(position + 1);
     }, 2000);
 }
-playSlideShow(`ss_demo`);
+playSlideShow(`slides`);
