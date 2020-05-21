@@ -1,0 +1,32 @@
+/* สีขาวอยู่ตรงกลาง*/
+body{
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+#try{
+  color: #fff;
+}
+#clock {
+  position: relative;
+  margin-top: 60px;
+  text-align: center;
+}
+/* font 70 px*/
+#time {
+  font-size: 70px;
+  font-family: 'Lato';
+}
+/* ขอบด้านบนห่าง 50px*/
+#color {
+  margin-top: 50px;
+  font-family: 'Ubuntu';
+}
+/*responsive*/
+@media screen and (min-width:700px) {
+  #time {
+    font-size: 100px; /* font 100px*/
+    font-family: 'Lato';
+  }
+      
+}

@@ -11,16 +11,18 @@ article {
     margin: 5px;
     grid-template-areas:
     
-    "s2 s2 s2"
-    "s3 s3 s3"
-    "s1 s1 s1";
+    "s2"
+    "s3"
+    "s1";
 }
+/* กำหนดให้อยู่ตรงกลาง*/
 #s1{
 grid-area: s1;
 display: flex;
 justify-content: center;
 align-items: center;
 }
+
 #s2{
 grid-area: s2;
 }
@@ -42,6 +44,7 @@ img{
     position: relative;
     width: 50%;
 }
+/* speed 1s fade out*/
 .slide img {
     position: absolute;
     left: 0;
@@ -49,15 +52,15 @@ img{
     width: 100%;
     max-width: 100%;
     height: auto;
-    opacity: 0;
-   
+    transition: 1s;
+    opacity: 0;  
 }
+/* fade in */
 .slide img.select {
     opacity: 1;
- 
 }
 
-
+/*responsive*/
 @media screen and (min-width:700px) {
     legend{
         font: 50px sans-serif;
@@ -75,7 +78,7 @@ img{
         font: 50px sans-serif;
     }
     main{
-        margin: 20px 150px;
+        margin: 20px 100px;
     }
     .slide {
         width: 20%;

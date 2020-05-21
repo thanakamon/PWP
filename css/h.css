@@ -4,14 +4,19 @@ article {
     grid-gap: 10px;
     margin: 10px;
 }
+/* เส้นขอบเป็นขีดสีดำ โค้ง 25px*/
 section{
     border: 2px dashed black;
     border-radius: 25px;
     font-size: 1.1rem;
 }
+#hh{
+    margin-bottom: 30px;
+}
 main{
     margin: 10px 30px;
 }
+/* responsive รูป ขนาด 50%*/
 img{
     width: 50%;
     height: 50%;
@@ -19,12 +24,19 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-
+p{
+    bottom: 0em;
+    text-align: center;
+}
+/*responsive*/
 @media screen and (min-width:700px) {
     article{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr); 
         grid-gap: 10px;
         margin: 20px 60px ;
+    }
+    #hh{
+        margin-bottom: 0px;
     }
         
 }
@@ -33,5 +45,8 @@ img{
         grid-template-columns: repeat(3,1fr);
         grid-gap: 10px;
         margin: 50px 100px ;
+        }
+        #hh{
+            margin-bottom: 0px;
         }
 }
